@@ -1,0 +1,11 @@
+{
+  "org": "sphinx-contrib",
+  "repo": "emojicodes",
+  "versions": [
+    {
+      "commit": "63444cf58ca118b846720d376cdb559491a98c09",
+      "tag": "",
+      "parsed_at": "2026-11-06T03:02:16.768419+00:00"
+    }
+  ]
+}
