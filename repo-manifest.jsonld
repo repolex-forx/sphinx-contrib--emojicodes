@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/sphinx-contrib/emojicodes/commit/63444cf58ca118b846720d376cdb559491a98c09",
       "git:hexsha": "63444cf58ca118b846720d376cdb559491a98c09",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T03:02:16.767744+00:00"
     },
     {
       "@id": "https://repolex.ai/r/sphinx-contrib/emojicodes/commit/6f0b8af8ec9fd8f1c3e2e70880940ba652b0828e",
