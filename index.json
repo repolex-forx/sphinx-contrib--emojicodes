@@ -3,6 +3,11 @@
   "repo": "emojicodes",
   "versions": [
     {
+      "commit": "cb2f29e1a8a5245621ba081043416b2862ff2a5e",
+      "tag": "v0.3.2",
+      "parsed_at": "2026-11-23T05:31:34.106785+00:00"
+    },
+    {
       "commit": "63444cf58ca118b846720d376cdb559491a98c09",
       "tag": "",
       "parsed_at": "2026-11-06T03:02:16.768419+00:00"

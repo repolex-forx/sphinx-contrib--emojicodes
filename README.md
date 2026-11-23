@@ -36,10 +36,16 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
-│   │   └── 63444cf58ca118b846720d376cdb559491a98c09
+│   │   ├── 63444cf58ca118b846720d376cdb559491a98c09
+│   │   │   └── chunk-001.nq.gz
+│   │   └── cb2f29e1a8a5245621ba081043416b2862ff2a5e
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── cb2f29e1a8a5245621ba081043416b2862ff2a5e.nq.gz
 │   └── repolex
-│       └── 63444cf58ca118b846720d376cdb559491a98c09
+│       ├── 63444cf58ca118b846720d376cdb559491a98c09
+│       │   └── chunk-001.nq.gz
+│       └── cb2f29e1a8a5245621ba081043416b2862ff2a5e
 │           └── chunk-001.nq.gz
 ├── blob
 │   ├── 03a916e340347dae6e16ba62bd8ed618544db82b.nq.gz
@@ -55,6 +61,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── a3ba1412646fa297b8c963ae53fa4d4e7d612bff.nq.gz
 │   ├── ae68db326a3a1e8fc19379dd0c3ae4ccd4178a9a.nq.gz
 │   ├── b15dd940b569c92deb795053bb7f893e077c3933.nq.gz
+│   ├── b3d9eb54b29fde15b7ea973c3f116863cecdcaec.nq.gz
 │   ├── cfd2edc768b0b88fb1fd91ecab0268f92364a507.nq.gz
 │   ├── d0c3cbf1020d5c292abdedf27627c6abe25e2293.nq.gz
 │   └── e013ccc195b8439e7ca316e75a892c0127b446ab.nq.gz
@@ -62,8 +69,11 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── cb2f29e1a8a5245621ba081043416b2862ff2a5e.nq.gz
 ├── filetree
-│   └── 63444cf58ca118b846720d376cdb559491a98c09.nq.gz
+│   ├── 63444cf58ca118b846720d376cdb559491a98c09.nq.gz
+│   └── cb2f29e1a8a5245621ba081043416b2862ff2a5e.nq.gz
 ├── issue
 │   └── issue.nq.gz
 ├── pr
@@ -71,7 +81,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 24 files
+17 directories, 30 files
 ```
 
 | Directory | What it contains |
@@ -92,4 +102,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [sphinx-contrib/emojicodes](https://github.com/sphinx-contrib/emojicodes)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-23 by [repolex](https://repolex.ai)*
